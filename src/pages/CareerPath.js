@@ -40,7 +40,7 @@ function Projects() {
                   Boston, MA
                 </h4>
                 <p>
-                  Paasionate Graduate Student, seeking a challenging internship to apply my theoretical knowledge and contribute to a dynamic work environment
+                  Pasionate Graduate Student, seeking a challenging internship to apply my theoretical knowledge and contribute to a dynamic work environment
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
