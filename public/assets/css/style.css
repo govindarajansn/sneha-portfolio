@@ -2037,7 +2037,7 @@ section .container {
 	overflow: hidden;
 	border-right: 4px solid #212121;
 	animation: cursor 1s step-start infinite, 
-    text 5s steps(18) alternate infinite;
+    text 6s steps(20) alternate infinite;
 }
 
 @keyframes cursor {
@@ -2051,7 +2051,7 @@ section .container {
     width: 0; 
   }
 	100% { 
-    width: 21.5ch; 
+    width: 25.5ch; 
   }
 }
 

@@ -83,7 +83,7 @@ function Skills() {
           <div className="skill-icons">
             {/* <img s/> */}
             <img
-              src="assets/img/icons/react.png"
+              src="assets/img/icons/REACT.png"
               alt=""
               className="img-fluid"
               style={{ height: "40px", width: "40px" }}
