@@ -519,6 +519,7 @@ section .container {
 
 .skill-container{
   display: flex;
+  flex-wrap: wrap;
 }
 .skill-icons{
   padding: 20px;

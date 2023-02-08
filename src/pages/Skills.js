@@ -267,7 +267,7 @@ function Skills() {
          <div className="cube"><img className="cube__front" src="assets/img/icons/css.png"/><img className="cube__right" src="assets/img/icons/REACT.png"/><img className="cube__back" src="assets/img/icons/ANGULAR.png"/><img className="cube__left" src="assets/img/icons/nodejs.png"/><img className="cube__top" src="assets/img/icons/expressjs.png"/><img className="cube__bottom" src="assets/img/icons/next-js.svg"/></div>
         </div>
       <div className="cube-wrap cube-third">
-         <div className="cube"><img className="cube__front" src="assets/img/icons/aws.png"/><img className="cube__right" src="assets/img/icons/jira.png"/><img className="cube__back" src="assets/img/icons/d3.svg"/><img className="cube__left" src="assets/img/icons/mysql.png"/><img className="cube__top" src="assets/img/icons/GITHUB.png"/><img className="cube__bottom" src="assets/img/icons/springboot.png"/></div>
+         <div className="cube"><img className="cube__front" src="assets/img/icons/aws.png"/><img className="cube__right" src="assets/img/icons/jquery.png"/><img className="cube__back" src="assets/img/icons/d3.svg"/><img className="cube__left" src="assets/img/icons/mysql.png"/><img className="cube__top" src="assets/img/icons/GITHUB.png"/><img className="cube__bottom" src="assets/img/icons/springboot.png"/></div>
      </div>
      </div>
       </div>
