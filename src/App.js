@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 // import './App.css';
 import Home from './pages/Home';
 import Header from './pages/Header';
-import Index from './pages/Index';
 import About from './pages/About';
 import Skills from './pages/Skills';
 import CareerPath from './pages/CareerPath';
