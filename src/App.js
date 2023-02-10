@@ -10,8 +10,13 @@ import CareerPath from './pages/CareerPath';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import 'react-vertical-timeline-component/style.min.css';
+import { inject } from '@vercel/analytics';
+import { useEffect } from "react";
 
 function App() {
+  useEffect(()=>{
+    inject()
+  },[])
   return (
    
     <Routes>
