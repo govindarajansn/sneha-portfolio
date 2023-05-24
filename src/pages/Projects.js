@@ -1,110 +1,108 @@
 import React from 'react';
 import Header from './Header.js';
 
-function Projects(){
-    return(
+function Projects() {
+
+  return (
     <div>
-     <Header/>
-    <section id="projects" className="portfolio section-show">
-    <div className="container">
+      <Header />
+      <section id="portfolio" className="portfolio">
+        <div className="container">
 
-      <div className="section-title">
-        <h2>Portfolio</h2>
-        <p>My Works</p>
-      </div>
+          <div className="section-title">
+            <h2>Portfolio</h2>
+            <p>My Works</p>
+          </div>
 
-      <div className="row portfolio-container" style={{position: 'relative', height: '999px'}}>
 
-        <div className="col-lg-4 col-md-6 portfolio-item" style={{position: 'relative', left: '0px; top: 0px'}}>
-          <div className="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt=""/>
-            <div className="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <div className="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus"></i></a>
-                <a href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+          <div className="row portfolio-container">
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/portfolio/car-thumbnail.png" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Customizable Car</h4>
+                  <p>Customize your car using three.js and react</p>
+                  <div className="portfolio-links">
+                    <a href="https://car-model-threejs.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="col-lg-4 col-md-6 portfolio-item" style={{position: 'relative', left: '428px; top: 0px'}}>
-          <div className="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt=""/>
-            <div className="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div className="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
-                <a href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div className="portfolio-wrap">
+                <img src="assets/img/portfolio/cloud.jpeg" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Cloud Deployment</h4>
+                  <p>AWS CI/CD Web App with React and Node.js	</p>
+                  <div className="portfolio-links">
+                    <a href="https://github.com/csye-snehagovindarajan/webapp" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="col-lg-4 col-md-6 portfolio-item" style={{position: 'relative',left: '856px; top: 0px'}}>
-          <div className="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt=""/>
-            <div className="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <div className="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus"></i></a>
-                <a href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/portfolio/music.jpeg" className="img-fluid" alt="" style={{ height: '230px' }} />
+                <div className="portfolio-info">
+                  <h4>Happify</h4>
+                  <p>Music app using spotify API</p>
+                  <div className="portfolio-links">
+                    <a href="https://github.com/govindarajansn/Happify" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="col-lg-4 col-md-6 portfolio-item" style={{position: 'relative', left: '0px; top: 333px'}}>
-          <div className="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt=""/>
-            <div className="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <div className="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus"></i></a>
-                <a href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+            <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div className="portfolio-wrap">
+                <img src="assets/img/portfolio/activepay-thumbnail.jpeg" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Active Pay</h4>
+                  <p>Re-paying cred card bill and getting return rewards</p>
+                  <div className="portfolio-links">
+                    <a href="https://github.com/neu-mis-info6150-fall-2022/final-project-quadsquad" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="col-lg-4 col-md-6 portfolio-item" style={{position: 'relative', left: '428px; top: 333px'}}>
-          <div className="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.jpg" className="img-fluid" alt=""/>
-            <div className="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <div className="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><i className="bx bx-plus"></i></a>
-                <a href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div className="portfolio-wrap">
+                <img src="assets/img/portfolio/tsp.jpeg" className="img-fluid" alt="" style={{ height: '225px' }} />
+                <div className="portfolio-info">
+                  <h4>Travelling Salesman Problem</h4>
+                  <p>Here's the Optimized Solution for TSP</p>
+                  <div className="portfolio-links">
+                    <a href="https://github.com/govindarajansn/FinalProject-INFO6205" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="col-lg-4 col-md-6 portfolio-item" style={{position: 'relative', left: '856px; top: 333px'}}>
-          <div className="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpg" className="img-fluid" alt=""/>
-            <div className="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <div className="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><i className="bx bx-plus"></i></a>
-                <a href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+            <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div className="portfolio-wrap">
+                <img src="assets/img/portfolio/book-store.jpeg" className="img-fluid" alt="" style={{ height: '224px' }} />
+                <div className="portfolio-info">
+                  <h4>Online Book Store</h4>
+                  <p>Fetch the Books using isbn, title, author from google books API</p>
+                  <div className="portfolio-links">
+                    {/* <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><i className="bx bx-plus"></i></a> */}
+                    <a href="https://github.com/govindarajansn/ScanbuyApp" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
+
+
           </div>
+
         </div>
-
-      </div>
-
+      </section>
     </div>
-  </section>
-  </div>
-    )
+  )
 }
 
 export default Projects;
