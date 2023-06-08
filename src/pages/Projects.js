@@ -30,6 +30,32 @@ function Projects() {
               </div>
             </div>
 
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/portfolio/foodgram.png" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>FoodGram</h4>
+                  <p>Get your recipe in one click - Yaaaay :-; </p>
+                  <div className="portfolio-links">
+                    <a href="https://cook-book-mealdb.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/portfolio/tic-tac-toe-game.png" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Tic-Tac-Toe 3D</h4>
+                  <p>Are you Bored! Just click and play</p>
+                  <div className="portfolio-links">
+                    <a href="https://tic-tac-toe-3d-snowy.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="portfolio-wrap">
                 <img src="assets/img/portfolio/cloud.jpeg" className="img-fluid" alt="" />
@@ -50,7 +76,7 @@ function Projects() {
                   <h4>Happify</h4>
                   <p>Music app using spotify API</p>
                   <div className="portfolio-links">
-                    <a href="https://github.com/govindarajansn/Happify" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <a href="https://happify-music-db.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
