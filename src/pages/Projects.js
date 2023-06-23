@@ -24,7 +24,7 @@ function Projects() {
                   <h4>Customizable Car</h4>
                   <p>Customize your car using three.js and react</p>
                   <div className="portfolio-links">
-                    <a href="https://car-model-threejs.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <a href="https://car-model-threejs.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details" rel="noreferrer" target="_blank"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -37,7 +37,7 @@ function Projects() {
                   <h4>FoodGram</h4>
                   <p>Get your recipe in one click - Yaaaay :-; </p>
                   <div className="portfolio-links">
-                    <a href="https://cook-book-mealdb.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <a href="https://cook-book-mealdb.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details" rel="noreferrer" target="_blank"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -50,7 +50,7 @@ function Projects() {
                   <h4>Tic-Tac-Toe 3D</h4>
                   <p>Are you Bored! Just click and play</p>
                   <div className="portfolio-links">
-                    <a href="https://tic-tac-toe-3d-snowy.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <a href="https://tic-tac-toe-3d-snowy.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details" rel="noreferrer" target="_blank"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@ function Projects() {
                   <h4>Cloud Deployment</h4>
                   <p>AWS CI/CD Web App with React and Node.js	</p>
                   <div className="portfolio-links">
-                    <a href="https://github.com/csye-snehagovindarajan/webapp" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <a href="https://github.com/csye-snehagovindarajan/webapp" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details" rel="noreferrer" target="_blank"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -76,7 +76,20 @@ function Projects() {
                   <h4>Happify</h4>
                   <p>Music app using spotify API</p>
                   <div className="portfolio-links">
-                    <a href="https://happify-music-db.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <a href="https://happify-music-db.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details" rel="noreferrer" target="_blank"><i className="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div className="portfolio-wrap">
+                <img src="assets/img/portfolio/HuggyBuddy.png" className="img-fluid" alt="" />
+                <div className="portfolio-info">
+                  <h4>Huggy Buddy</h4>
+                  <p>Sentiment Analysis App</p>
+                  <div className="portfolio-links">
+                    <a href="https://huggy-buddy.vercel.app/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details" rel="noreferrer" target="_blank"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -89,7 +102,7 @@ function Projects() {
                   <h4>Active Pay</h4>
                   <p>Re-paying cred card bill and getting return rewards</p>
                   <div className="portfolio-links">
-                    <a href="https://github.com/neu-mis-info6150-fall-2022/final-project-quadsquad" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <a href="https://github.com/neu-mis-info6150-fall-2022/final-project-quadsquad" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details" rel="noreferrer" target="_blank"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -102,7 +115,7 @@ function Projects() {
                   <h4>Travelling Salesman Problem</h4>
                   <p>Here's the Optimized Solution for TSP</p>
                   <div className="portfolio-links">
-                    <a href="https://github.com/govindarajansn/FinalProject-INFO6205" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <a href="https://github.com/govindarajansn/FinalProject-INFO6205" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details" rel="noreferrer" target="_blank"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -116,7 +129,7 @@ function Projects() {
                   <p>Fetch the Books using isbn, title, author from google books API</p>
                   <div className="portfolio-links">
                     {/* <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><i className="bx bx-plus"></i></a> */}
-                    <a href="https://github.com/govindarajansn/ScanbuyApp" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                    <a href="https://github.com/govindarajansn/ScanbuyApp" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" className="portfolio-details-lightbox" title="Portfolio Details" rel="noreferrer" target="_blank"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>

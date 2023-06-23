@@ -27,17 +27,11 @@ function Header() {
             <li><Link className="nav-link" to="/careerPath">Career Path</Link></li>
             <li><Link className="nav-link" to="/projects">Projects</Link></li>
             <li><Link className="nav-link" to="/contact">Contact</Link></li>
-            <li><a href="/assets/resume/SnehaGovindarajan.pdf">Resume</a></li>
+            <li><a href="/assets/resume/SnehaGovindarajan.pdf" rel="noreferrer" target="_blank">Resume</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle" onClick={navbartoggle}></i>
         </nav>
 
-        <div className="social-links">
-          <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
-          <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-          <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-          <a href="#" className="linkedin"><i className="bi bi-linkedin"></i>null</a>
-        </div>
 
       </div>
     </header>

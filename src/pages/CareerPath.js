@@ -23,15 +23,15 @@ function Projects() {
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
-                 
-                
+
+
                 }}
                 contentArrowStyle={{
                   borderRight: "7px solid  #fff",
                 }}
                 date="2022 - present"
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-                icon={<img src="assets/img/icons/neu.png" className="img-fluid" alt=""/>}
+                icon={<img src="assets/img/icons/neu.png" className="img-fluid" alt="" />}
               >
                 <h3 className="vertical-timeline-element-title">
                   Northeastern University
@@ -49,24 +49,24 @@ function Projects() {
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
-                 
+
                 }}
                 contentArrowStyle={{
                   borderRight: "7px solid  #fff",
                 }}
-                iconStyle={{ background: "#fff", color: "#fff", paddingTop: "16px"}}
+                iconStyle={{ background: "#fff", color: "#fff", paddingTop: "16px" }}
                 // icon={<WorkIcon />}
-                icon={<img src="assets/img/icons/virtusa.svg" className="img-fluid" alt=""/>}
+                icon={<img src="assets/img/icons/virtusa.svg" className="img-fluid" alt="" />}
               >
                 <h3 className="vertical-timeline-element-title">
-                  Virtusa 
+                  Virtusa
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   Full Stack Developer
                 </h4>
                 <p>
-                   Proficient full-stack developer with a solid understanding of both front-end and back-end technologies.
-                   Adept at using modern technologies and frameworks to deliver outstanding user experiences and meet client requirements
+                  Proficient full-stack developer with a solid understanding of both front-end and back-end technologies.
+                  Adept at using modern technologies and frameworks to deliver outstanding user experiences and meet client requirements
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -75,13 +75,13 @@ function Projects() {
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
-                 
+
                 }}
                 contentArrowStyle={{
                   borderRight: "7px solid  #fff",
                 }}
                 iconStyle={{ background: "#fff", color: "#fff", paddingTop: "16px" }}
-                icon={<img src="assets/img/icons/virtusa.svg" className="img-fluid" alt=""/>}
+                icon={<img src="assets/img/icons/virtusa.svg" className="img-fluid" alt="" />}
               >
                 <h3 className="vertical-timeline-element-title">
                   Virtusa
@@ -97,22 +97,22 @@ function Projects() {
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
-                 
+
                 }}
                 contentArrowStyle={{
                   borderRight: "7px solid  #fff",
                 }}
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
                 // icon={<WorkIcon />}
-                icon={<img src="assets/img/icons/annauniversity.png" className="img-fluid" alt=""/>}
+                icon={<img src="assets/img/icons/annauniversity.png" className="img-fluid" alt="" />}
               >
                 <h3 className="vertical-timeline-element-title">
                   Anna University
                 </h3>
                 <p>Completed B.Tech in Information Systems with a comprehensive understanding of programming languages, software development methodologies, and database management</p>
               </VerticalTimelineElement>
-            
-              
+
+
             </VerticalTimeline>
           </div>
         </div>

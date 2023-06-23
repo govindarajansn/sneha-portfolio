@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
 
 function Home() {
 
@@ -20,24 +19,13 @@ function Home() {
     <header id="header" className="">
       <div className="container">
         <h1>
-          <a href="#">Sneha Govindarajan</a>
+          <a href="/">Sneha Govindarajan</a>
         </h1>
         <div className="typing-container">
           <div className="container">
             <div className="typewriter">I'm a Full Stack Developer</div>
           </div>
         </div>
-        {/* <div className="dynamic-test">
-        <div className="transcontainer">
-         <div className="static-txt">I'm</div>
-           <ul className="dynamic-txt">
-             <li><span>a Full Stack Developer</span></li>
-             <li><span>a Front end Developer</span></li>
-           </ul>
-        </div>
-      </div> */}
-        {/* <h2>I'm a passionate <span>Software Engineer</span> from New York</h2> */}
-        {/* <p>I'm <span className="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span className="typed-cursor typed-cursor--blink" aria-hidden="true">|</span></p> */}
 
         <nav id="navbar" className="navbar">
           <ul>
@@ -75,21 +63,21 @@ function Home() {
         </nav>
 
         <div className="social-links">
-          <a href="tel:+1-6174809451" className="telephone">
+          <a href="tel:+1-6174809451" className="telephone" rel="noreferrer" target="_blank">
             <i className="bi bi-telephone"></i>
           </a>
-          <a href="https://github.com/govindarajansn" className="github">
+          <a href="https://github.com/govindarajansn" className="github" rel="noreferrer" target="_blank">
             <i className="bi bi-github"></i>
           </a>
           <a
             href="https://instagram.com/sne_afu?igshid=Zjc2ZTc4Nzk="
-            className="instagram"
+            className="instagram" rel="noreferrer" target="_blank"
           >
             <i className="bi bi-instagram"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/sneha-govindarajan/"
-            className="linkedin"
+            className="linkedin" rel="noreferrer" target="_blank"
           >
             <i className="bi bi-linkedin"></i>
           </a>
