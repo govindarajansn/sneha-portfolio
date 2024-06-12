@@ -29,7 +29,7 @@ function Projects() {
                 }}
                 date="January 2024 - present"
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-                icon={<img src="assets/img/icons/SAPImg.png" className="img-fluid" alt="" />}
+                icon={<img src="assets/img/icons/SAPImg.jpeg" className="img-fluid" alt="" />}
               >
                 <h3 className="vertical-timeline-element-title">
                   SAP America Inc.
