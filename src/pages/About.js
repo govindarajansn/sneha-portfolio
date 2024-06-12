@@ -30,7 +30,7 @@ function About() {
                 <div className="col-lg-6">
                   <ul>
                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Position:</strong> <span>Software Developer Intern</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Current Position:</strong> <span>Software Developer Intern</span></li>
                     {/* <li><i className="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>govindarajan.sn@northeastern.edu</span></li> */}
                   </ul>
                 </div>
