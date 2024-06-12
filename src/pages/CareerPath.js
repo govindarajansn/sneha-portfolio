@@ -23,13 +23,34 @@ function Projects() {
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
-
-
                 }}
                 contentArrowStyle={{
                   borderRight: "7px solid  #fff",
                 }}
-                date="2022 - present"
+                date="January 2024 - present"
+                iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+                icon={<img src="assets/img/icons/SAPImg.png" className="img-fluid" alt="" />}
+              >
+                <h3 className="vertical-timeline-element-title">
+                  SAP America Inc.
+                </h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  Newton Square, PA
+                </h4>
+                <p>
+                  Tech enthusiast working with various SAP proprietary technologies to innovate new products for the SAP Software Asset Management Team
+                </p>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{
+                  background: "#fff",
+                  color: "#000",
+                }}
+                contentArrowStyle={{
+                  borderRight: "7px solid  #fff",
+                }}
+                date="September 2022 - present"
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
                 icon={<img src="assets/img/icons/neu.png" className="img-fluid" alt="" />}
               >
@@ -45,7 +66,7 @@ function Projects() {
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2020 - 2022"
+                date="August 2020 - August 2022"
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
@@ -71,7 +92,7 @@ function Projects() {
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2020(Jun) - 2020(August)"
+                date="June 2020 - August 2020"
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
@@ -93,7 +114,7 @@ function Projects() {
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2016 - 2020"
+                date="August 2016 - April 2020"
                 contentStyle={{
                   background: "#fff",
                   color: "#000",

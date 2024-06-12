@@ -24,7 +24,7 @@ function About() {
             <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>Full Stack Developer</h3>
               <p className="fst-italic">
-                A Product-focused full stack developer, having two years of professional experience. I specialise in helping products grow based on user metrics. In this dynamic digital environment, I'm learning and growing to be a force behind the expansion and success of an organization.
+                Tech enthusiast, Force-Multiplier, People developer and Value creator
               </p>
               <div className="row">
                 <div className="col-lg-6">
@@ -41,23 +41,13 @@ function About() {
                   </ul>
                 </div>
               </div>
-              <p>
-                I'm a Full Stack Developer with two years of work experience. I have extensive experience creating and managing web applications using a variety of technologies. </p>
-              <p>On the front-end, I am proficient in HTML, CSS, JavaScript, SCSS, TypeScript and jQuery. I have experience using popular front-end frameworks such as Bootstrap, Foundation, Material-UI and Angular Material. I also have experience working with React.js, Next.js and Angular.</p>
-
-              <p>On the back-end, I have experience working with Node.js and Express. I have a solid understanding of database management and have experience working with MySQL, MongoDB, and PostgreSQL. I also have experience with server-side rendering and API development.</p>
-
-              <p>I have experience working with Git and have a solid understanding of best practices for version control. I am also familiar with deploying and maintaining applications on various hosting platforms like AWS.</p>
-
-              <p> I am a proactive and detail-oriented developer who is always eager to learn new technologies and improve my skills. I have a strong ability to work both independently and collaboratively, and I am able to deliver high-quality, functional and user-friendly applications. I have a passion for solving problems and creating efficient solutions.
-
-              </p>
+              <p> Hello there, I'm so happy you are here! </p>
+              <p> Hi there! I'm Sneha, a tech enthusiast and graduate student pursuing my Master's in Information Systems in the vibrant city of Boston. My passion lies in crafting cutting-edge web applications and constantly exploring the latest technological advancements.</p>
+              <p> When I'm not immersed in coding or brainstorming new ideas, you'll find me dancing my heart out, cuddling with my furry friends, or binge-watching the latest series on Netflix.</p>
+              <p>I thrive on collaborating with dynamic individuals and teams who share my excitement for creating extraordinary digital experiences. Let's connect and build something amazing together!</p>
             </div>
           </div>
-
         </div>
-
-
       </section>
     </div>
   )
