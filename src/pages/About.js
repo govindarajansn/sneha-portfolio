@@ -30,7 +30,7 @@ function About() {
                 <div className="col-lg-6">
                   <ul>
                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Boston, MA, USA</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Position:</strong> <span>Software Developer Intern</span></li>
                     {/* <li><i className="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>govindarajan.sn@northeastern.edu</span></li> */}
                   </ul>
                 </div>
@@ -42,7 +42,7 @@ function About() {
                 </div>
               </div>
               <p> Hello there, I'm so happy you are here! </p>
-              <p> Hi there! I'm Sneha, a tech enthusiast and graduate student pursuing my Master's in Information Systems in the vibrant city of Boston. My passion lies in crafting cutting-edge web applications and constantly exploring the latest technological advancements.</p>
+              <p> I'm Sneha, a tech enthusiast and graduate student pursuing my Master's in Information Systems in the vibrant city of Boston. My passion lies in crafting cutting-edge web applications and constantly exploring the latest technological advancements.</p>
               <p> When I'm not immersed in coding or brainstorming new ideas, you'll find me dancing my heart out, cuddling with my furry friends, or binge-watching the latest series on Netflix.</p>
               <p>I thrive on collaborating with dynamic individuals and teams who share my excitement for creating extraordinary digital experiences. Let's connect and build something amazing together!</p>
             </div>
